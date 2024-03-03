@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     int a, b, c;
     cin >> a >> b >> c;
-    int average = (a + b + c) / 3;
+    double average = (a + b + c) / 3.0;
     cout << average << "\n";
     return 0;
 }
